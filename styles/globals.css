@@ -11,8 +11,8 @@
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
+    #fe020233 110deg,
+    #ff080833 55deg,
     #54d6ff33 120deg,
     #0071ff33 160deg,
     transparent 360deg
@@ -87,12 +87,12 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    ) */
+    /* rgb(var(--background-start-rgb)); */
 }
 
 a {
